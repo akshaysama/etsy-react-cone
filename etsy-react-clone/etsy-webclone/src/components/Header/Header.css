@@ -1,0 +1,176 @@
+.etsy-logo-container svg{
+    fill: #F1641E !important;
+    width: 60px;
+    height: 30px;
+}
+.header-heart-svg svg{
+    width: 24px;
+    height: 24px;
+}
+.header-basket-container svg{
+    width: 24px;
+    height: 24px;
+}
+.header-menu-bar-container{
+    height: 24px;
+    width:24px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    padding-right: 12px;
+}
+.header-input-container-child input{
+    padding:12px 42px 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 500px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    width: 100%;
+    background-color: rgba(34,34,34,0.05);
+  
+}
+.header-input-container{
+    display: flex;
+    min-width:260px;
+    height: 48px;
+    box-sizing: border-box;
+    padding-right: 3px;
+}
+.header-input-container-child{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 50px;
+    background: rgba(34,34,34,0.05);
+    align-items: center;
+
+}
+.header-container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1277px;
+    padding: 0px 9px;
+    align-items: center;
+    max-height: 96px;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    flex-wrap: wrap;
+}
+.header-signin-components-container{
+    display: flex;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.header-signin{
+    white-space: nowrap;
+    padding: 9px 15px;
+    padding-bottom: 9px;
+    padding-right: 19px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Graphik Webfont;
+}
+.header-search-input-container{
+    display: flex;
+    align-items: center;
+}
+.button-header-input{
+    background-color: inherit;
+    border: none;
+    padding: 0;
+    padding-right: 22px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.header-button-span{
+    width: 24px;
+    height: 24px;
+}
+.header-button-span svg{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.header-heart-svg{
+    padding: 12px;
+}
+.header-basket-container{
+    padding: 12px;
+    padding-right: 15px;
+    padding-top: 13px;
+}
+.header-menu-bar-container svg{
+    width: 24px;
+}
+.header-heart-svg{   
+     padding-right: 10px;
+    padding-top: 13px;}
+    .header-input-container-child input:focus{
+     outline: none;
+     background: linear-gradient(to right, white 100%, rgba(34, 34, 34, 0.05) 0%)!important;
+    }
+    /* /////////////// main card section csss*/
+
+
+
+
+.main-card-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 9px;
+}
+
+.cards-image-container img{
+    max-width: 96px;
+    border-radius: 50%;
+    width: 102%;
+    border: 1px solid rgba(34, 34, 34, 0.15) !important;
+}
+.cards-main-container{
+    flex-basis: 27.33%;
+    min-height: 149.8px;
+    position: relative;
+}
+.card-name{
+    font-family: "Graphik Webfont";
+    font-size: 13px;
+    padding-left: 3px;
+}
+.text-main-section h2{
+    font-family: 'Guardian';
+    font-weight: 50;
+    letter-spacing: 0.35px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.text-main-section{
+    padding:18px 12px 0px 12px ;
+    margin-top: 12px;
+}
+.cards-image-container{
+    margin-bottom: 1px;
+}
+.cards-section-parent-container{
+    background: linear-gradient(to bottom, #D7E6F5 74%,white 20%);
+}
+.card-name p{
+    line-height: 1.4;
+}
+.cards-image-container img:hover{
+    scale: 1.1;
+}
+.cards-image-container:hover::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    left: 0px;
+    background-color: black;
+    top: 84%;
+    z-index: 100000;
+}
