@@ -49,29 +49,65 @@
         "name":"CardsSecondSection",
         "secondCardSectionPtag":"Editors' Picks",
         "secondCardSectionH2":"The Diwali Shop",
+        "svgPlayButton":"4 4 4 20 20 12 4 4",
+        "heartSvg":"M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z",
+        "lastText":"See more",
         "cards":[
-            {
+            {    "id":"1",
                "imgSrc":"https://i.etsystatic.com/19118902/r/il/bc410e/4123880182/il_680x540.4123880182_3i1l.jpg" ,
                "Price":"₹1,838"
             },
-            {
+            {    "id":2,
                 "imgSrc":"https://i.etsystatic.com/26474219/r/il/c5396d/3645321964/il_680x540.3645321964_hea5.jpg",
                 "Price":"₹1,838"
             },
-            {
+            {    "id":3,
                 "imgSrc":"https://i.etsystatic.com/24079038/r/il/f5a06d/4098246766/il_680x540.4098246766_tiup.jpg",
                 "Price":"₹3,404"
             },
-            {"imgSrc":"https://i.etsystatic.com/17612918/c/1748/1389/186/…/ca5c3d/3943016591/il_680x540.3943016591_idnj.jpg",
-             "Price":"₹3,319"
+            {    "id":4,
+                "imgSrc":"https://i.etsystatic.com/17612918/c/1748/1389/186/…/ca5c3d/3943016591/il_680x540.3943016591_idnj.jpg",
+                "Price":"₹3,319"
             },
-            {
+            {    "id":5,
                 "imgSrc":"https://i.etsystatic.com/19118902/r/il/9f0282/4113527544/il_680x540.4113527544_b00j.jpg",
                 "Price":"₹2,128"
             },
-            {
+            {    "id":6,
                 "imgSrc":"https://i.etsystatic.com/16676438/c/1954/1552/0/11…/2054a3/1825350041/il_680x540.1825350041_rvfe.jpg",
                 "Price":"₹851"
+            }
+        ]
+    },
+    {
+        "name":"cardThree",
+        "h2Tag":"Discover unique hand-picked items",
+        "sliderTags":["Modern farmhouse","Ecletic Decor","Boho Decor"],
+        "currencySymbol":"₹",
+        "Cards":[
+            {    "id":1,
+                "imgSrc":"https://i.etsystatic.com/6799010/c/2261/1797/0/463/il/4a638a/3610316818/il_340x270.3610316818_ia1y.jpg",
+                "Price":"3,068"
+            },
+            {    "id":2,
+                "imgSrc":"https://i.etsystatic.com/15155901/c/1709/1357/186/323/il/ee0296/1873009066/il_340x270.1873009066_7tbx.jpg",
+                "Price":"19,704"
+            },
+            {    "id":3,
+                "imgSrc":"https://i.etsystatic.com/10664644/c/1694/1347/304/1021/il/187135/2333975199/il_680x540.2333975199_lsxx.jpg",
+                "Price":"2,004"
+            },
+            {    "id":4,
+                "imgSrc":"https://i.etsystatic.com/16119277/r/il/f1dfa3/3551572525/il_680x540.3551572525_nrnp.jpg",
+                "Price":"3,989"
+            },
+            {    "id":5,
+                "imgSrc":"https://i.etsystatic.com/6864403/c/1834/1457/161/439/il/5bc32b/1413678425/il_340x270.1413678425_1fcr.jpg",
+                "Price":"1,159"
+            },
+            {     "id":6,
+                "imgSrc":"https://i.etsystatic.com/12192797/c/1365/1085/0/350/il/61f5ab/3058288868/il_340x270.3058288868_15wm.jpg",
+                "Price":"19,099"
             }
         ]
     }
