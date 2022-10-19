@@ -387,3 +387,39 @@ display: flex;
     display: none;
 }
 }
+
+/* ////////////////// third section css //////////// */
+
+.third-section-flexbox-one-container{
+    display: flex;
+    flex-direction: column;
+}
+.third-section-flexbox-first-row,.third-section-flexbox-two-row-two-container-child{
+    display: flex;
+}
+.third-section-first-row-first-component-container img,.third-section-first-row-second-component img,.third-section-flexbox-two-component-one-child-container img,.third-section-flexbox-two-component-two-child  img{
+   width: 100%;
+   border-radius: 6px;
+}
+.third-section-flexbox-second-row-container img,.third-section-flexbox-two-row-one-container-child img{
+width: 100%;
+border-radius: 6px;
+}
+.third-section-flexbox-two-row-one-container,.third-section-flexbox-second-row{
+    padding:1px 6px;;
+}
+.third-section-first-row-second-component,.third-section-first-row-first-component{
+    padding: 6px;
+}
+.third-section-cards-container{
+    padding: 0px 6px;
+}
+.third-section-flexbox-two-row-one-container{
+    padding-top: 3px;
+}
+.third-section-flexbox-two-row-two-container{
+    padding: 6px 0px;
+}
+.third-section-flexbox-two-row-two-component-container, .third-section-flexbox-two-component-one-container{
+    padding: 6px;
+}

@@ -86,12 +86,25 @@ function MainSection3() {
                                 <div className="third-section-flexbox-two-row-two-container-child">
                                     <div className="third-section-flexbox-two-component-one-container">
                                         <div className="third-section-flexbox-two-component-one-child-container">
-                                   
+                                          {
+                                            Object.Cards.map((obj5)=>{
+                                                if(obj5.id === 5){
+                                                   return <img src ={obj5.imgSrc} alt="img5" />
+                                                }
+                                            })
+                                          }
                                         </div>
                                     </div>
                                     <div className="third-section-flexbox-two-row-two-component-container">
                                         <div className="third-section-flex-box-two-component-two-container">
                                             <div className="third-section-flexbox-two-component-two-child">
+                                                {
+                                                    Object.Cards.map((obj6)=>{
+                                                        if(obj6.id===6){
+                                                            return <img src={obj6.imgSrc} alt="img6" />
+                                                        }
+                                                    })
+                                                }
 
                                             </div>
                                         </div>
