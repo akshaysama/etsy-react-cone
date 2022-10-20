@@ -1,8 +1,6 @@
 import React from 'react'
 import "../Header/Header.css"
 import dataBase from "../dataBase.json"
-import PriceComponent from "./PriceComponent"
-import Heart from "../HeartSvg/Heart"
  let Object
 dataBase.map((obj)=>{
    if(obj.name==="cardThree"){
@@ -40,7 +38,6 @@ function MainSection3() {
                             
                                      return <div className="third-section-first-row-first-component">
                                              <div className="third-section-first-row-first-component-container">
-                                                <Heart />
                                                 <img src={obj.id===1?obj.imgSrc:null}  alt="pot"/>
                                              </div>
                                           </div>

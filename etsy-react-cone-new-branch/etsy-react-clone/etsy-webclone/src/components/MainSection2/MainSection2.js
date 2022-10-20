@@ -1,11 +1,19 @@
-
+import  dataBase from "../dataBase.json"
 import "../Header/Header.css"
 
 import React from 'react'
+let SecondCardObject
+dataBase.map((a)=>{
+    if(a.name==="CardsSecondSection"){
+   SecondCardObject = a
+  
+    }
+     return SecondCardObject
+   
+})
+console.log(SecondCardObject)
 
-
-function MainSection2(props) {
-let SecondCardObject = props.arrayObj
+function MainSection2() {
   return (
     <div className ="second-card-section-container">
       <div className="second-card-section-container-child">
