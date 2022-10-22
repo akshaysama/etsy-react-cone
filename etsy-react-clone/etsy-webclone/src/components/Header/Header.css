@@ -668,7 +668,7 @@ border-radius: 6px;
 .svgContainer svg{
     height: 14px;
     fill: #fff;
-    width: 100vw;
+    width: 99vw;
 }
 .footer-card-two-link-container{
     display: inline;
@@ -717,7 +717,7 @@ fill: white;
     background-color: #4D6BC6 !important;
 }
 .cracked-border-container svg{
-    width: 100vw;
+    width: 99vw;
     display: block;
     height: 24px;
     transform:scaleX(-1)rotateX(180deg);
@@ -732,5 +732,61 @@ fill: white;
     padding: 10px 0px;
 }
 .button-footer span::after{
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    min-width: 24px;
+    position:absolute;
+    height: 24px;
+    transition: transform 200ms ease-in;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 24 24%22 aria-hidden%3D%22true%22 focusable%3D%22false%22%3E%3Cpath fill%3D%22%23FFFFFF%22 d%3D%22M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+    margin-left: 6px;
+    top: 12px;
+    right: 23px;
+}
 
+.footer-container-child{
+    background-color: #2F466C !important;
+}
+.button-footer{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    min-height: 48px;
+    min-width: 48px;
+    padding:12px 20px;
+    position: relative;
+}
+.button-list-container-child li{
+    padding-top:6px;
+    padding-bottom: 12px;
+    color: white;
+}
+.button-list-container-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+.button-list-container{
+    padding-left: 24px;
+}
+.button-list-container{
+display: none;
+height: 0px;
+transition:  height 0.9s ease-in;
+}
+.button-list{
+    display: contents;
+    height: 100%;
+    transition:  height 0.9s ease-in;
 }

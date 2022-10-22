@@ -4,6 +4,7 @@
         url('./assets/Graphik-Regular-Web.woff2'),
         url('./assets/Guardian-EgypTT-Light.woff2');
 }
+
 @font-face{
   font-family: 'Guardian';
   src: url('./assets/Guardian-EgypTT-Light.woff2') format('woff2'),
@@ -11,6 +12,7 @@
 *{
   padding: 0;
   margin: 0;
+
 }
 .App {
   text-align: center;
