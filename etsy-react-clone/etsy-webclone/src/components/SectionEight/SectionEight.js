@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import dataBase from "../dataBase.json"
 let Object
 let Object2
@@ -11,6 +11,15 @@ dataBase.map((a)=>{
 console.log(Object)
 
 function SectionEight() {
+
+  const [clicki,setClick] = useState(false)
+  const changeState=(e)=>{
+  const curre = e.currentTarget.querySelector('.button-list-container')
+  clicki===true?curre.style.display = "flex":curre.style.display="none"
+  clicki===true?curre.style.height = "100%":curre.style.height = "100%"
+  
+  }
+
   return (
     <div className="section-seven-last-card">
       <span className="cracked-border-container">
@@ -36,8 +45,8 @@ function SectionEight() {
             {
             
                 Object.footerCards.map((obj3)=>{
-                    return <div className="button-container-footer">
-                             <button className="button-footer">
+                    return <div className="button-container-footer"  onClick={e=>changeState(e)}>
+                             <button className="button-footer" onClick={e=>setClick(!clicki)}>
                                 <span>{obj3.footerHeading}</span>
 
                              </button>
