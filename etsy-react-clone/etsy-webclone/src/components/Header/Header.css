@@ -701,14 +701,14 @@ fill: white;
     background-color: #4D6BC6 !important;
 }
 .section-seven-text-container{
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 28px;
     text-decoration: underline;
     text-decoration-style: dashed;
     text-underline-position: under;
     background-color: #4D6BC6 !important;
-    text-decoration-color:white;
+  color:white;
 }
 .cracked-border-container{
     fill: #4D6BC6 !important;
@@ -745,6 +745,7 @@ fill: white;
     margin-left: 6px;
     top: 12px;
     right: 23px;
+  
 }
 
 .footer-container-child{
@@ -763,7 +764,8 @@ fill: white;
     line-height: 1.5;
     min-height: 48px;
     min-width: 48px;
-    padding:12px 20px;
+    padding:12px 24px;
+    margin-bottom: 12px;
     position: relative;
 }
 .button-list-container-child li{
@@ -789,4 +791,10 @@ transition:  height 0.9s ease-in;
     display: contents;
     height: 100%;
     transition:  height 0.9s ease-in;
+}
+.button-container-footer{
+    margin-bottom: 6px;
+}
+.footer-row-one{
+    padding: 12px 0px;
 }
