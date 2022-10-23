@@ -80,7 +80,7 @@
             },
             {
                 "id": 6,
-                "imgSrc": "https://i.etsystatic.com/16676438/c/1954/1552/0/11…/2054a3/1825350041/il_680x540.1825350041_rvfe.jpg",
+                "imgSrc": "https://i.etsystatic.com/19118902/r/il/9f0282/4113527544/il_680x540.4113527544_b00j.jpg",
                 "Price": "₹851"
             }
         ]
@@ -271,7 +271,9 @@
                 "footerHeading":"Help",
                 "footer11":[
                     "Help Center","Privacy settings"
-                ]
+                ],
+                "footerLogoText":"Download the Etsy App",
+                
             }
         ]
     }
