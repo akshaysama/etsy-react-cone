@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.search-bar-container{
+    display:flex;
+}
+.header-container{
+    padding:14px 24px 0px 24px;
+}
+.search-bar-container{
+    border: 0.5px solid rgba(0,0,0,0.08);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 10%);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 7px 0px;
+    min-width: fit-content;
+}
+.search-icon-container{
+    padding: 0px 16px 0px 20px;
+}
+.span-top-text{
+    font-size: 14px;
+    font-weight: 400;
+}
+.overflow-span{
+    font-size: 12px;
+    color: #717171;
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.button-search{
+    border: none;
+    background: transparent;
+    margin-left: auto;
+   
+}
+.search-button-div{
+    border: 1px solid #DDDDDD;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin:0px 10px;
+    margin-left: 5px;
+}
+.overflow-text{
+    width: 99%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+}
+.search-header{
+    width: 100%;
+}
+.overflow-text > span+span{
+    order: 3;
+}
+.overflow-text > div+div{
+    order: 2;
+}
+.overflow-text > div{
+    order: 4;
+}
+.overflow-text >span+span+span{
+    order: 5;
+}
+.dot-div{
+    color: #717171;
+    font-size: 12px;
+    padding: 0px 3px;
+   
+}
+.header-slider-container{
+    display: flex;
+    
+}
+.button-slider{
+    width: 47px;
+    height: 44px;
+    border:none;
+    background-color: transparent;
+    /* margin: 18px; */
+    margin-top: 18px;
+    padding-bottom:57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2px;
+    
+}
+.span-slider{
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+}
+.span-slider img{
+    width:24px;
+    height: 24px;
+   
+}
+.span-sliderr{
+   font-size: 12px;
+   white-space: nowrap;
+   margin-top: 5px;
+}
+.header-slider-container-child{
+    display: grid;
+    grid-template-columns: repeat(32 ,1fr);
+    overflow: scroll;
+    grid-gap: 28px;
+    padding: 0px 24px;
+    height: fit-content;
+}
+.header-slider-container-child::-webkit-scrollbar{
+display: none;
+}
+.span-top-text{
+    width: 100%;
+}
+.border-bottom .span-slider img{
+    width: 22px;
+}
+.border-bottom .span-sliderr{
+    font-size: 11px;
+}
+.button-slider:focus{
+border-bottom: 3px solid black ;
+}
+.button-slider:focus .span-sliderr{
+    
+}
