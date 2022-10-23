@@ -1,1 +1,0 @@
-# etsy-react-cone
