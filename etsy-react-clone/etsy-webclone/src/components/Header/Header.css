@@ -767,6 +767,7 @@ fill: white;
     padding:12px 24px;
     margin-bottom: 12px;
     position: relative;
+    border-radius: 50px;
 }
 .button-list-container-child li{
     padding-top:6px;
@@ -784,13 +785,11 @@ fill: white;
 }
 .button-list-container{
 display: none;
-height: 0px;
-transition:  height 0.9s ease-in;
+max-height: 0px;
 }
 .button-list{
     display: contents;
     height: 100%;
-    transition:  height 0.9s ease-in;
 }
 .button-container-footer{
     margin-bottom: 6px;
@@ -798,3 +797,52 @@ transition:  height 0.9s ease-in;
 .footer-row-one{
     padding: 12px 0px;
 }
+.footer-svg li{
+width: 36px;
+fill: white;
+height: 36px;
+padding: 6px;
+}
+.footer-logo svg{
+    width: 24px;
+    height: 24px;
+}
+.footer-parent-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 15px;
+    margin-top: 15px;
+    width:fit-content;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 57px;
+
+}
+.footer-text{
+    margin-left: 6px;
+    color: white;
+    font-weight:500;
+    font-size: 13px;}
+    .footer-logo{
+        display: flex;
+    }
+    .footer-logo svg{
+        fill: white;
+    }
+    .footer-svg{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    /* ////////// footer anim */
+.button-container-footer{
+    padding: 0px 5px;}
+
+    .button-footer{
+        transition: background-color 0.1s ease-in;
+    }
+    .button-list-container-child{
+        transition: max-height 0.15s ease-out;
+    }
