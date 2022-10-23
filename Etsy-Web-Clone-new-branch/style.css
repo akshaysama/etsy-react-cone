@@ -1,0 +1,234 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    padding: 0;
+    margin:0;
+    width:100%;
+    height: 100vh;
+}
+.span-container{
+    width: 60px;
+    height:30px;
+}
+.span-container span{
+    fill:#F1641e;
+}
+.span-luv{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    padding-right: 10px;
+}
+.sign-in button{
+    background: transparent;
+    border: none;
+    font-weight: 600;
+}
+.sign-in{
+    padding: 19px 6px;
+    margin-right: 6px;
+}
+.header-child-one{
+    display:flex;
+    padding:0px 9px;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+    margin-bottom: 4px;
+}
+.basket-svg-container{
+    padding: 12px;
+}
+.second-child-container{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    width: 259px;
+    background:rgba(34, 34, 34, 0.05);
+    border-radius: 50px;
+    border:2px solid black;
+    height: 48px;
+    flex: 1;
+    margin-right: 12.5px;
+}
+.input-container{
+    display:flex;
+    flex-direction:row;
+}
+.second-child-container input::placeholder{
+   font-size: 16px;
+}
+.second-child-container:focus-within{
+    outline: 2px solid rgb(42, 42, 185);
+    outline-offset: 2px;
+    background: linear-gradient(to right, white 76%, rgba(34, 34, 34, 0.05) 30%)!important;
+}
+.second-child-container:focus{
+   background-color: black;
+}
+.toggle-bar-container{
+    padding: 10px 8px 8px 11px;
+    margin-right: 3px;
+}
+.toggle-bar-container:focus-within{
+background: wheat;
+border-radius: 100%;
+}
+.second-child-container input{
+    padding-left: 18px;
+    width:61%;
+}
+.text-after-header h3{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 12px;
+    line-height: 32px;
+}
+.faded{
+    background-color: linear-gradient(to right, white 74%, rgba(34, 34, 34, 0.05) 30%)!important;
+}
+.h2-header{
+  text-align: center;
+}
+.header-sign-in{
+    display:flex;
+    align-content: center;
+    justify-content:center
+}
+.span-luv span{
+    display: flex;
+    align-items: center;
+}
+.container-class{
+  background: linear-gradient(to bottom, #D7E6F5 74.6%,white 20%);
+  margin-bottom: 14px;
+}
+.component-parent-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 6px;
+}
+.component-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: center;
+    justify-content:stretch;
+    flex-basis: 27.8%;
+    min-height: 148px;
+}
+.image-in-component{
+    max-width: 94px;
+    border-radius: 100%;
+}
+.image-in-component img{
+    width:100%;
+    border-radius: 100%;
+}
+.p-tag-component p{
+    font-size: 13px;
+    padding: 0px 1rem;
+    margin: 0;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: 800; 
+}
+.h2-header{
+    padding:18px 12px 0px;
+}
+.second-section-component-container{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    max-width: 100vw;
+    justify-content:stretch;
+    flex-wrap: wrap;
+}
+.container-image{
+ flex-basis: 33.33%;
+ max-width: 33.33%;
+ flex-grow: 1;
+ padding-right: 12px;
+ margin-bottom:12px;
+ border-radius:2px
+
+}
+.second-section-component-container{
+    padding: 0px 12px;
+}
+
+.container-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.second-section-component-container :nth-child(3n + 3) {
+    margin-bottom: 12px;
+    padding-right: 0;
+}
+.text-container h1{
+    margin: 0;
+    padding-bottom: 18px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.text-container p{
+    margin: 0;
+    color: #595959;
+    font-size: 13px;
+}
+.text-container{
+    text-align: center;
+}
+.container-image div{
+    position: absolute;
+    bottom:12px;
+    right:12px;
+    width:30px;
+    height: 30px;
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container-image span svg{
+    width: 18px;
+    position: absolute;
+    left: 27%;
+    right: 50%;
+    top: 20%;
+    bottom: 50%;
+}
+@media only screen and (min-width:640px)
+{
+    .text-after-header h3{
+        font-size:26px !important;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    .p-tag-component p{
+        font-size:16px;
+    }
+    .component-parent-container{
+        flex-wrap: nowrap;
+        padding: 0px 14px;
+    }
+    .image-in-component{
+        max-width: 84px;
+    }
+    .p-tag-component{
+        padding-top:8px;
+    }
+    .h2-header{
+        padding-top: 24px;
+    }
+    .container-class{
+        background:linear-gradient(to bottom, #D7E6F5 60.2%,white 20%);
+    }
+    
+}
