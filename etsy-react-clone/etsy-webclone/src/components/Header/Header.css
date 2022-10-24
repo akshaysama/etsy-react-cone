@@ -731,7 +731,7 @@ fill: white;
 .section-seven-content-container-child{
     padding: 10px 0px;
 }
-.button-footer span::after{
+.footer-span::after{
     content: "";
     background-size: cover;
     background-repeat: no-repeat;
@@ -773,6 +773,7 @@ fill: white;
     padding-top:6px;
     padding-bottom: 12px;
     color: white;
+
 }
 .button-list-container-child{
     display: flex;
@@ -802,6 +803,7 @@ width: 36px;
 fill: white;
 height: 36px;
 padding: 6px;
+margin-right:3px;
 }
 .footer-logo svg{
     width: 24px;
@@ -835,6 +837,7 @@ padding: 6px;
         list-style: none;
         align-items: center;
         justify-content: center;
+        margin-top: 18px;
     }
     /* ////////// footer anim */
 .button-container-footer{
@@ -845,4 +848,67 @@ padding: 6px;
     }
     .button-list-container-child{
         transition: max-height 0.15s ease-out;
+    }
+
+    .transform::after{
+        transform: rotate(180deg);
+    }
+    .footer-parent-container{
+        margin-top: 24px;
+    }
+    .footer-logo-container{
+        margin-top: 12px;
+    }
+    .footer-last-first-part-svg-container svg{
+        width: 18px;
+        height: 18px;
+        fill: white;
+    }
+    .footer-last-part-container-child{
+        display: flex;
+        align-items: center;
+        padding-bottom: 12px;
+        justify-content: center;
+    }
+    .footer-last-second-part{
+        margin-left: 8px;
+    }
+    .footer-last-second-part-container{
+        color: white;
+        font-size: 13px;
+        font-weight: bolder;
+        font-family: "Graphik Webfont";
+    }
+    .footer-last-first-part-svg-container{
+        display: flex;
+    }
+    .footer-last-part-two-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #footer-ul li{
+   display: inline;
+   color: white;
+   font-size: 13px;
+   text-decoration: underline;
+   margin-right: 12px;
+   display: inline-block;
+    }
+    #footer-ul{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .footer-last-part-two-child{
+        color: white;
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .footer-last-part-container{
+        padding: 18px 24px;
+        background-color: #232347;
+    }
+    .footer-last-part-container-child{
+        padding: 9px 15px;
+        margin-bottom: 12px;
     }
