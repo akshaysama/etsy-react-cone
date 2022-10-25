@@ -9,6 +9,8 @@ import SectionFive from "./components/section5/SectionFive"
 import SectionSix from "./components/SectionSIx/Section6"
 import SectionSeven from "./components/SectionSeven/SectionSeven"
 import SectionEight from "./components/SectionEight/SectionEight"
+import HeaderNav from "./components/headerSectionTwo/headerNav"
+import HeaderHover from "./components/headerSectionTwo/headerHover"
 // import SectionSixCpy from "./components/SectionSIx/SectionSixCpy"
 // import SectionSixCpy2 from "./components/SectionSIx/sectionSixCpy2"
 let Object 
@@ -46,6 +48,7 @@ function App() {
      <header>
        <Header />
      </header>
+     <HeaderNav />
      <main>
       <Main />
       <MainTwo arrayObj={SecondCardObject} />

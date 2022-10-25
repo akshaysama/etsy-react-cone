@@ -15,7 +15,7 @@
         "Cards": [
             {
                 "id": 1,
-                "imgSrc": "https://i.etsystatic.com/16676438/c/1954/1954/0/0/il/2054a3/1825350041/il_300x300.1825350041_rvfe.jpg",
+                "imgSrc": "https://i.etsystatic.com/25473399/r/il/6285e0/4283974912/il_300x300.4283974912_7qv5.jpg",
                 "CardName": "Diwali"
             },
             {
@@ -65,7 +65,7 @@
             },
             {
                 "id": 3,
-                "imgSrc": "https://i.etsystatic.com/24079038/r/il/f5a06d/4098246766/il_680x540.4098246766_tiup.jpg",
+                "imgSrc": "https://i.etsystatic.com/17612918/c/1748/1389/186/156/il/ca5c3d/3943016591/il_680x540.3943016591_idnj.jpg",
                 "Price": "₹3,404"
             },
             {
@@ -251,23 +251,25 @@
         "name":"sectionSeven",
         "content":" Etsy is powered by 100% renewable electricity.",
         "footerCards":[
-            {
+            {   "id":0,
                 "footerHeading":"Shops",
-                "footer11":["Gift card","Sitemap","Etsy blog","Etsy United Kingdom","Etsy Germany","Etsy Canada"]
+                "footer11":["Gift card","Sitemap","Etsy blog","Etsy United Kingdom","Etsy Germany","Etsy Canada"],
+                "state":"state1"
             },
-            {
+            {  "id":1,
                 "footerHeading":"Sell",
                 "footer11":[
                     "Sell on Etsy","Teams","Forums","Affiliates"
-                ]
+                ],
+                "state":"state2"
             },
-            {
+            {     "id":2,
                 "footerHeading":"About",
                 "footer11":[
                     "Etsy, Inc.","Policies","Investors","Careers","Press","Impact","Legal Imprint"
                 ]
             },
-            {
+            {       "id":3,
                 "footerHeading":"Help",
                 "footer11":[
                     "Help Center","Privacy settings"
@@ -279,5 +281,58 @@
         "lastContent":"India   |   English (UK)   |   ₹ (INR)",
         "lastContent2":"    © 2022 Etsy, Inc.",
         "lastContent3":["Terms of use","Privacy","Interest-based ads","Regions"]
+    },
+    {
+        "name":"headerNav",
+        "navElements":[
+            {
+               "name":"Diwali Favourates" 
+            },
+            {
+                "name":"Jewellery $ Accessories"
+            },
+            {
+                "name":"CLothing & Shoes"
+            },
+            {
+                "name":"Home & Living"
+            },
+            {
+                "name":"Wedding & Party"
+            },
+            {
+                "name":"Toys & Entertainment"
+            },
+            {
+                "name":"Art & Collectibles"
+            },
+            {
+                "name":"Craft & Supplies"
+            },
+            {  
+                "name":"Gifts"
+            }
+        ]
+    },
+    {
+        "name":"headerUl",
+        "firstSectionDivContent":"All jewellery & accessories",
+        "firstSection":[
+       "Accessories","Bags & Purses","Necklase","Rings","Earrings","Bracelets","Body Jewellery","All Jewellery"
+        ],
+        "secondSection":[
+            "Pendant","Chokers","Charm Necklases","Crystal Necklase","Monogram & Name Necklase","Beaded Necklase","Chains"
+        ],
+        "thirdSection":[
+            "Bib Necklaces","Tassel Necklase","Rani Haar","Mangalsutras","All Necklaces"
+        ],
+        "fourthSection":[
+            {
+                "name":"img",
+                "src":"https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg",
+                "text":"Editor's Picks",
+                "textTwo":"Jewellery shop"
+            }
+        ]
     }
 ]
