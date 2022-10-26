@@ -12,19 +12,29 @@ console.log(Object)
 
 function SectionEight() {
 const [count, setCount] = useState(0)
-  const [clicki,setClick] = useState(true)
-  const changeState=(e)=>{
+  const [clicki,setClick] = useState([
+   {button:true},
+    {button:true},
+    {button:true},
+    {button:true}
+    
+  ])
+  
+  const changeState=(e,obj3)=>{
+
+
+ console.log(clicki[obj3].button)
   const curre = e.currentTarget.querySelector('.button-list-container')
   const currer = e.currentTarget.querySelector('.button-footer')
   const currerr = e.currentTarget.querySelector('.footer-span')
-  clicki===true?curre.style.display = "flex":curre.style.display="none"
-  clicki===true?curre.style.maxHeight = "800px":curre.style.maxHeight = "0px"
-  clicki===true?currerr.classList.add('transform'):currerr.classList.remove('transform')
+  clicki[obj3].button===true?curre.style.display = "flex":curre.style.display="none"
+  clicki[obj3].button===true?curre.style.maxHeight = "800px":curre.style.maxHeight = "0px"
+  clicki[obj3].button===true?currerr.classList.add('transform'):currerr.classList.remove('transform')
   setTimeout(() => {
     
   },1000);
-  clicki===true?currer.style.backgroundColor= "rgba(255, 255, 255, 0.075)":currer.style.background = "inherit"
- 
+  clicki[obj3].button===true?currer.style.backgroundColor= "rgba(255, 255, 255, 0.075)":currer.style.background = "inherit"
+  clicki[obj3].button = !clicki[obj3].button
   
   }
 
@@ -54,8 +64,8 @@ const [count, setCount] = useState(0)
             
                 Object.footerCards.map((obj3,i)=>{
                  
-                    return <div className="button-container-footer"  onClick={e=>changeState(e)}>
-                             <button className="button-footer" onClick={e=>setClick(!clicki)}>
+                    return <div className="button-container-footer"  onClick={e=>changeState(e,obj3.id)}>
+                             <button className="button-footer">
                                 <span className="footer-span">{obj3.footerHeading}</span>
 
                              </button>
