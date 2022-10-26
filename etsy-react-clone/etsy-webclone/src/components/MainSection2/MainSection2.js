@@ -11,8 +11,9 @@ console.log(props)
     <div className ="second-card-section-container" style = {props.style}>
       <div className="second-card-section-container-child">
         <div className="second-card-section-text-container" style={props.style5}>
-            <p style={props.style6}>{SecondCardObject.secondCardSectionPtag}</p>
+            <p className="ptag-one-second-section" style={props.style6}>{SecondCardObject.secondCardSectionPtag}</p>
             <h1>{SecondCardObject.secondCardSectionH2}</h1>
+            <p className="second-card-ptag-two">{SecondCardObject.secondCardPtagTwo}</p>
             </div>
             {
                 SecondCardObject.cards.map((obj,idx)=>{
@@ -31,6 +32,7 @@ console.log(props)
                           </div>
                 })
             }
+            <div className="second-card-section-text-child">{SecondCardObject.secondLastText}</div>
      <div className="anchortag-container"><a href="#" className="second-card-anchor-tag" >{SecondCardObject.lastText}</a></div>  
       </div>
     </div>
