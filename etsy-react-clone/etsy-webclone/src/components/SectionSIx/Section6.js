@@ -28,6 +28,7 @@ function Section6() {
               <div className="section-six-text-container">
                   <p className="p-tag">{obj2.ptag}</p>
                   <p className="ptag-two">{obj2.text}</p>
+                  <p className="ptag-three">{obj2.textTwo}</p>
               </div>
             </div>
             </div>

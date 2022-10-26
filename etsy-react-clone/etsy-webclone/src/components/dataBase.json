@@ -49,9 +49,11 @@
         "name": "CardsSecondSection",
         "secondCardSectionPtag": "Editors' Picks",
         "secondCardSectionH2": "The Diwali Shop",
+        "secondCardPtagTwo":"Shop these unique finds",
         "svgPlayButton": "4 4 4 20 20 12 4 4",
         "heartSvg": "M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z",
         "lastText": "See more",
+        "secondLastText":"Make your celebrations even more special this year with beautiful items from local sellers",
         "cards": [
             {
                 "id": "1",
@@ -91,7 +93,8 @@
         "sliderTags": [
             "Modern farmhouse",
             "Ecletic Decor",
-            "Boho Decor"
+            "Boho Decor",
+            "Minimalist"
         ],
         "currencySymbol": "₹",
         "Cards": [
@@ -201,137 +204,181 @@
         ]
     },
     {
-        "name":"cardSection6",
-        "h2tag":"Fresh from the blog",
-        "Cards":[
+        "name": "cardSection6",
+        "h2tag": "Fresh from the blog",
+        "Cards": [
             {
-             "id":1,
-"imgSrc":"https://i.etsystatic.com/inv/03ca1a/4263836158/inv_620x495.4263836158_6ygrugiq.jpg?version=0",
-             "ptag":"Shopping Guides",
-             "text":"13 Gorgeous Accessories for this Wedding Secson"
+                "id": 1,
+                "imgSrc": "https://i.etsystatic.com/inv/03ca1a/4263836158/inv_620x495.4263836158_6ygrugiq.jpg?version=0",
+                "ptag": "Shopping Guides",
+                "text": "13 Gorgeous Accessories for this Wedding Secson",
+                "textTwo":"Best Gifts for the Men Who Have Everything"
             },
             {
-                "id":2,
-                "imgSrc":"https://i.etsystatic.com/inv/781229/4295053145/inv_425x340.4295053145_2edho3n7.jpg?version=0",
-                "ptag":"Shopping Guides",
-                "text":"11 Jackets and Scarves for That In-Between Weather"
+                "id": 2,
+                "imgSrc": "https://i.etsystatic.com/inv/781229/4295053145/inv_425x340.4295053145_2edho3n7.jpg?version=0",
+                "ptag": "Shopping Guides",
+                "text": "11 Jackets and Scarves for That In-Between Weather",
+                "textTwo":"Shop classic and trendy accessories to complete your preparation for the all the shaadi functions."
             },
             {
-                "id":3,
-                "ptag":"Inspiration",
-                "imgSrc":"https://i.etsystatic.com/inv/25d482/4004818446/inv_425x340.4004818446_ag7rsamq.jpg?version=0",
-                "text":"5 Ideas for a Sip and Paint Night With Friends"
+                "id": 3,
+                "ptag": "Inspiration",
+                "imgSrc": "https://i.etsystatic.com/inv/25d482/4004818446/inv_425x340.4004818446_ag7rsamq.jpg?version=0",
+                "text": "5 Ideas for a Sip and Paint Night With Friends",
+                "textTwo":"From pashmina stoles to reversible jackets, these wardrobe essentials will become your fall favourites."
             }
-
         ]
     },
     {
-        "name":"SectionSevenCard",
-        "h2tag":"What is Etsy?",
-        "atag":"Read our wonderfully weird story.",
-        "textContent":[
+        "name": "SectionSevenCard",
+        "h2tag": "What is Etsy?",
+        "atag": "Read our wonderfully weird story.",
+        "textContent": [
             {
-                "h3tag":"A community doing good",
-                "link":"Here are some of the ways we're making a positive impact, together",
-                "ptag":" Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique items. We’re also a community pushing for positive change for small businesses, people, and the planet."
+                "h3tag": "A community doing good",
+                "link": "Here are some of the ways we're making a positive impact, together",
+                "ptag": " Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique items. We’re also a community pushing for positive change for small businesses, people, and the planet."
             },
             {
-                "h3tag":"Support independent creators",
-                "ptag":" There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process easy, helping you connect directly with makers to find something extraordinary."
+                "h3tag": "Support independent creators",
+                "ptag": " There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process easy, helping you connect directly with makers to find something extraordinary."
             },
             {
-                "h3tag":"Peace of mind",
-                "ptag":" Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always ready to step in for support."
+                "h3tag": "Peace of mind",
+                "ptag": " Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always ready to step in for support."
             }
         ],
-        "h4tag":"Have a question? Well, we've got some answers.",
-        "atag2":"Go to Help Center"
+        "h4tag": "Have a question? Well, we've got some answers.",
+        "atag2": "Go to Help Center"
     },
     {
-        "name":"sectionSeven",
-        "content":" Etsy is powered by 100% renewable electricity.",
-        "footerCards":[
-            {   "id":0,
-                "footerHeading":"Shops",
-                "footer11":["Gift card","Sitemap","Etsy blog","Etsy United Kingdom","Etsy Germany","Etsy Canada"],
-                "state":"state1"
-            },
-            {  "id":1,
-                "footerHeading":"Sell",
-                "footer11":[
-                    "Sell on Etsy","Teams","Forums","Affiliates"
+        "name": "sectionSeven",
+        "content": " Etsy is powered by 100% renewable electricity.",
+        "footerCards": [
+            {
+                "id": 0,
+                "footerHeading": "Shops",
+                "footer11": [
+                    "Gift card",
+                    "Sitemap",
+                    "Etsy blog",
+                    "Etsy United Kingdom",
+                    "Etsy Germany",
+                    "Etsy Canada"
                 ],
-                "state":"state2"
+                "state": "state1"
             },
-            {     "id":2,
-                "footerHeading":"About",
-                "footer11":[
-                    "Etsy, Inc.","Policies","Investors","Careers","Press","Impact","Legal Imprint"
+            {
+                "id": 1,
+                "footerHeading": "Sell",
+                "footer11": [
+                    "Sell on Etsy",
+                    "Teams",
+                    "Forums",
+                    "Affiliates"
+                ],
+                "state": "state2"
+            },
+            {
+                "id": 2,
+                "footerHeading": "About",
+                "footer11": [
+                    "Etsy, Inc.",
+                    "Policies",
+                    "Investors",
+                    "Careers",
+                    "Press",
+                    "Impact",
+                    "Legal Imprint"
                 ]
             },
-            {       "id":3,
-                "footerHeading":"Help",
-                "footer11":[
-                    "Help Center","Privacy settings"
+            {
+                "id": 3,
+                "footerHeading": "Help",
+                "footer11": [
+                    "Help Center",
+                    "Privacy settings"
                 ],
-                "footerLogoText":"Download the Etsy App"
-                
+                "footerLogoText": "Download the Etsy App"
             }
         ],
-        "lastContent":"India   |   English (UK)   |   ₹ (INR)",
-        "lastContent2":"    © 2022 Etsy, Inc.",
-        "lastContent3":["Terms of use","Privacy","Interest-based ads","Regions"]
+        "lastContent": "India   |   English (UK)   |   ₹ (INR)",
+        "lastContent2": "    © 2022 Etsy, Inc.",
+        "lastContent3": [
+            "Terms of use",
+            "Privacy",
+            "Interest-based ads",
+            "Regions"
+        ]
     },
     {
-        "name":"headerNav",
-        "navElements":[
+        "name": "headerNav",
+        "navElements": [
             {
-               "name":"Diwali Favourates" 
+                "name": "Diwali Favourates"
             },
             {
-                "name":"Jewellery $ Accessories"
+                "name": "Jewellery $ Accessories"
             },
             {
-                "name":"CLothing & Shoes"
+                "name": "CLothing & Shoes"
             },
             {
-                "name":"Home & Living"
+                "name": "Home & Living"
             },
             {
-                "name":"Wedding & Party"
+                "name": "Wedding & Party"
             },
             {
-                "name":"Toys & Entertainment"
+                "name": "Toys & Entertainment"
             },
             {
-                "name":"Art & Collectibles"
+                "name": "Art & Collectibles"
             },
             {
-                "name":"Craft & Supplies"
+                "name": "Craft & Supplies"
             },
-            {  
-                "name":"Gifts"
+            {
+                "name": "Gifts"
             }
         ]
     },
     {
-        "name":"headerUl",
-        "firstSectionDivContent":"All jewellery & accessories",
-        "firstSection":[
-       "Accessories","Bags & Purses","Necklase","Rings","Earrings","Bracelets","Body Jewellery","All Jewellery"
+        "name": "headerUl",
+        "firstSectionDivContent": "All jewellery & accessories",
+        "firstSection": [
+            "Accessories",
+            "Bags & Purses",
+            "Necklase",
+            "Rings",
+            "Earrings",
+            "Bracelets",
+            "Body Jewellery",
+            "All Jewellery"
         ],
-        "secondSection":[
-            "Pendant","Chokers","Charm Necklases","Crystal Necklase","Monogram & Name Necklase","Beaded Necklase","Chains"
+        "secondSection": [
+            "Pendant",
+            "Chokers",
+            "Charm Necklases",
+            "Crystal Necklase",
+            "Monogram & Name Necklase",
+            "Beaded Necklase",
+            "Chains"
         ],
-        "thirdSection":[
-            "Bib Necklaces","Tassel Necklase","Rani Haar","Mangalsutras","All Necklaces"
+        "thirdSection": [
+            "Bib Necklaces",
+            "Tassel Necklase",
+            "Rani Haar",
+            "Mangalsutras",
+            "All Necklaces"
         ],
-        "fourthSection":[
+        "fourthSection": [
             {
-                "name":"img",
-                "src":"https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg",
-                "text":"Editor's Picks",
-                "textTwo":"Jewellery shop"
+                "name": "img",
+                "src": "https://i.etsystatic.com/30973456/c/1250/993/0/1148/il/7cfe1e/3769038215/il_340x270.3769038215_e2oq.jpg",
+                "text": "Editor's Picks",
+                "textTwo": "Jewellery shop"
             }
         ]
     }

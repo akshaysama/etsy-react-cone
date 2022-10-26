@@ -18,7 +18,7 @@ function SectionFive(props) {
             </div>
         </div>
         <div className="section-five-container">
-            <div className="section-five-container-child">
+            <div className="section-five-container-child  section-five-card">
                 {
                     Object.cards.map((obj2)=>{
                  return  <div className="section-five-cards">
