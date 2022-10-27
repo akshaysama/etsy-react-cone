@@ -2,6 +2,7 @@
 import "../Header/Header.css"
 
 import React from 'react'
+import PriceComponent from "../MainSection3/PriceComponent"
 
 
 function MainSection2(props) {
@@ -19,8 +20,11 @@ console.log(props)
                 SecondCardObject.cards.map((obj,idx)=>{
                     return <div className="second-card-image-container " style={props.style4} key={obj.id}>
                                  <div className="second-card-image-container-child" >
+                             
                                     <div className="heart-svg-container">
+                                    <PriceComponent price ={{price:obj.Price,discount:obj.discount,currency:obj.currencySymbol}} />
                                     <div className="heart-svg-container-child">
+                                         
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d={SecondCardObject.heartSvg}></path></svg>
                                         </div>
                                         </div>
