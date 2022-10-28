@@ -19,7 +19,7 @@ let newPrice = discountStringArray.join('')
 console.log(newPrice)
   return (
     console.log(props),
-      <p className="price-component-container">
+      <p className="price-component-container" style={props.style}>
            <span className="price-component-span-container">
        
               {props.price.discount? 
