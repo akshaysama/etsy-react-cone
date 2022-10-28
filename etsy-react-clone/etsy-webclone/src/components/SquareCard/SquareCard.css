@@ -1,0 +1,7 @@
+.square-card-container img{
+   width: 100%;
+}
+.square-cards-main-container{
+    padding: 6px;
+    flex-basis: 33.33%;
+}

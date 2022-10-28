@@ -30,11 +30,12 @@ const [count, setCount] = useState(0)
   clicki[obj3].button===true?curre.style.display = "flex":curre.style.display="none"
   clicki[obj3].button===true?curre.style.maxHeight = "800px":curre.style.maxHeight = "0px"
   clicki[obj3].button===true?currerr.classList.add('transform'):currerr.classList.remove('transform')
-  setTimeout(() => {
+  // setTimeout(() => {
     
-  },1000);
+  // },1000);
   clicki[obj3].button===true?currer.style.backgroundColor= "rgba(255, 255, 255, 0.075)":currer.style.background = "inherit"
   clicki[obj3].button = !clicki[obj3].button
+  clicki[obj3].button===true?currer.style.paddingTop="0":currer.style.paddingTop= "11px"
   
   }
 

@@ -115,7 +115,7 @@
                 "Price1": "3,068",
                 "discount1": 10,
                 "img2Src": "https://i.etsystatic.com/15155901/c/1709/1357/186/323/il/ee0296/1873009066/il_340x270.1873009066_7tbx.jpg",
-                "Price2": "19,704",
+                "Price2": "19,701",
                 "discount2": null,
                 "img3Src": "https://i.etsystatic.com/10664644/c/1694/1347/304/1021/il/187135/2333975199/il_680x540.2333975199_lsxx.jpg",
                 "Price3": "2,004",
@@ -392,5 +392,35 @@
                 "textTwo": "Jewellery shop"
             }
         ]
+    },
+    {
+        "name":"squareCards",
+        "cardsImgSrc":[
+          {
+            "imgSrc":"https://i.etsystatic.com/16676438/c/2738/2738/0/0/il/55aac5/1476320786/il_300x300.1476320786_8hkr.jpg",
+            "price":"639"
+          },
+          {
+            "imgSrc":"https://i.etsystatic.com/21689103/r/il/00433b/3127057561/il_300x300.3127057561_3l4r.jpg",
+            "price":"1,961"
+          },
+          {
+            "imgSrc":"https://i.etsystatic.com/19698147/r/il/611f5f/3139648139/il_300x300.3139648139_srk0.jpg",
+            "price":"10,659"
+          },
+          {
+            "imgSrc":"https://i.etsystatic.com/7942677/c/2000/2000/0/0/il/4fba5c/3654605139/il_300x300.3654605139_mxr4.jpg",
+            "price":"2,558"
+          },
+          {
+            "imgSrc":"https://i.etsystatic.com/14414441/r/il/473531/3603792575/il_300x300.3603792575_spc7.jpg",
+            "price":"3,409"
+          },
+          {
+            "imgSrc":"https://i.etsystatic.com/11901825/r/il/66e226/4143573747/il_300x300.4143573747_70bv.jpg",
+            "price":"1,876"
+          }
+        ]
     }
+
 ]

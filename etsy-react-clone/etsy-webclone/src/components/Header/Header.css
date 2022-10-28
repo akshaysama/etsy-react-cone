@@ -198,6 +198,12 @@
     fill: black!important;
 } */
 /* //////////////////////Second card css/////////// */
+.cracked-border-container:nth-child(1){
+    display: flex;
+}
+.cracked-border-container svg{
+    width: 100% !important;
+}
 .second-card-ptag-two{
     display: none;
 }
@@ -206,6 +212,7 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+
 }
 .second-card-image-container{
     flex-grow: 1;
@@ -229,6 +236,7 @@
 }
 .second-card-image-container-child-child{
     border-radius: 3px;
+    max-width: 100%!important;
 }
 .second-card-play-button{
     position: absolute;
@@ -1111,6 +1119,14 @@ order: 3;
         .header-hover-div{
             padding: 0px 17px;
             display: block!important;
+      
+            position: absolute;
+             z-index: 2000;
+            background-color: white;
+             margin: 0 auto;
+             max-width: 1299px;
+             left: 0;
+             right: 0;
         }
         .header-ul  li{
             padding: 12px 6px 6px 18px;
@@ -1180,6 +1196,7 @@ order: 3;
         }
         .header-hover-container-child-two{
             box-sizing: border-box;
+            flex-basis: 64%;
         }
         .header-ul-seecond-part-two li{
             padding-bottom: 18px;
@@ -1633,6 +1650,15 @@ order: 3;
     .cracked-border-container:nth-child(1){
         display: none;
     }
+    .second-card-image-container-child .price-component-container{
+        opacity: 0;
+        transition: all 0.2s;
+    }
+    .second-card-image-container-child:hover .price-component-container{
+   
+        opacity: 1;
+        transform: translateY(-12px);
+    }
 }
 @media (max-width:639px){
     .svgContainer:nth-child(2){
@@ -1775,5 +1801,27 @@ order: 3;
     }
     #footer-ul{
         margin: 0px 0px 0px 14px;
+    }
+}
+@media (max-width:640px){
+    .cracked-border-container:nth-child(2){
+        display: none;
+    }
+    .second-card-image-container-child .price-component-container{
+        display: none;
+    }
+    .silder-section-three-child {
+        justify-content:space-around;
+    }
+    .section-three-button-one:nth-child(3){
+        display: none;
+    }
+    .main-section-three-child{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:372px){
+    .silder-section-three-child {
+        justify-content:left!important;
     }
 }

@@ -8,6 +8,9 @@ dataBase.map((obj)=>{
    }return Object
 })
 function SliderSection() {
+  const setChange = ()=>{
+
+  }
   return (
 
 <div className="buttons parent">
@@ -21,7 +24,7 @@ function SliderSection() {
  <div className="silder-section-three-child">
      { 
      Object.sliderTags.map((obj)=>{
-    return  <button className="section-three-button-one" >
+    return  <button className="section-three-button-one" onClick={e=>setChange()} >
          <p>{obj}</p>
      </button>
      })

@@ -10,6 +10,8 @@ import SectionSix from "./components/SectionSIx/Section6"
 import SectionSeven from "./components/SectionSeven/SectionSeven"
 import SectionEight from "./components/SectionEight/SectionEight"
 import HeaderNav from "./components/headerSectionTwo/headerNav"
+import SquareCard from "./components/SquareCard/squareCardComponent"
+import SquareC from "./components/SquareCard/SquareCard"
 // import SectionSixCpy from "./components/SectionSIx/SectionSixCpy"
 // import SectionSixCpy2 from "./components/SectionSIx/sectionSixCpy2"
 let Object 
@@ -72,6 +74,7 @@ function App() {
       <SecondSectionSquareCards style4={{maxWidth:'29%'}} arrayObj ={FourthCardObject} style={{marginBottom:"0"}} style2={{minHeight:"0px"}} style5={{marginBottom:"4px"}} style6={{marginBottom:"6px"}} />
       </div> */}
       <SectionFive arrayObj ={Object3}/>
+      <SquareCard />
       <SectionSix />
       <SectionSeven />
       <SectionEight />
