@@ -4,3 +4,4 @@ bugs fixed 12 18
 contentful metadata updated
 content ful metadata updated
 written graphql queries
+/////////////////////
