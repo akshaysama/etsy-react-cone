@@ -5,3 +5,5 @@ contentful metadata updated
 content ful metadata updated
 written graphql queries
 /////////////////////
+written graphql queries
+studied seo implementations
