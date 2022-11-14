@@ -8,4 +8,5 @@ written graphql queries
 written graphql queries
 studied seo implementations
 reviewed typescript react and js
+bugs fixed typescript reviewed
 
